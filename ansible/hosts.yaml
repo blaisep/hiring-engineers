@@ -1,0 +1,12 @@
+---
+all:
+    hosts:
+        git:
+            ansible_host: 192.168.254.19
+        ns:
+            ansible_host: 192.168.254.27
+            ansible_python_interpreter: /usr/bin/python3
+    vars:
+        ansible_user: bpabon
+        ansible_become: true
+        ara_user: bpabon

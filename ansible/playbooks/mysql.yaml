@@ -1,0 +1,8 @@
+---
+- name: Converge
+  hosts: ns
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - role: robertdebock.mysql
